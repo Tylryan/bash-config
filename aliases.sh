@@ -1,0 +1,6 @@
+alias www='~/Bin/elinks-search'
+alias v='/bin/nvim'
+alias vi='/bin/vim'
+alias cc='/bin/gcc -Wall -Wextra -Werror'
+alias copy='/bin/xclip -select clipboard'
+alias yt='ytfzf'
