@@ -5,18 +5,12 @@ alias lla='ls -alFh'
 alias ll='ls -lFh'
 alias l.="ls -A | egrep '^\.'"
 alias cd..='cd ..'
-alias pdw="pwd"
-alias udpate='sudo pacman -Syyu'
-alias upate='sudo pacman -Syyu'
-alias updte='sudo pacman -Syyu'
-alias updqte='sudo pacman -Syyu'
 alias upqll="paru -Syu --noconfirm"
 alias upal="paru -Syu --noconfirm"
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
-alias give-me-azerty-be="sudo localectl set-x11-keymap be"
-alias give-me-qwerty-us="sudo localectl set-x11-keymap us"
+#alias give-me-azerty-be="sudo localectl set-x11-keymap be"
 alias unlock="sudo rm /var/lib/pacman/db.lck"
 alias rmpacmanlock="sudo rm /var/lib/pacman/db.lck"
 alias rmlogoutlock="sudo rm /tmp/arcologout.lock"
@@ -26,7 +20,7 @@ alias wget="wget -c"
 alias userlist="cut -d: -f1 /etc/passwd"
 alias merge="xrdb -merge ~/.Xresources"
 alias pacman='sudo pacman --color auto'
-alias update='sudo pacman -Syyu'
+# alias update='sudo pacman -Syyu'
 alias pksyua="paru -Syu --noconfirm"
 alias upall="paru -Syu --noconfirm"
 alias psa="ps auxf"
@@ -127,7 +121,3 @@ alias avs="arcolinux-vbox-share"
 alias awa="arcolinux-welcome-app"
 alias rmgitcache="rm -r ~/.cache/git"
 alias personal='cp -Rf /personal/* ~'
-#create a file called .bashrc-personal and put all your personal aliases
-alias www='~/Bin/elinks-search'
-alias v='/bin/nvim'
-alias vi='/bin/vim'
