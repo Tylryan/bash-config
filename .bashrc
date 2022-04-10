@@ -5,6 +5,7 @@ source ~/.config/bash/arco-aliases.sh
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+set -o vi
 
 SYMBOL=∯
 JUNK_START="\[\e[0;32m\]"
@@ -64,18 +65,5 @@ ex ()
 # These will get sourced EVERY TIME you open up your terminal
 # Neat idea, but freaking annoying
 
-# reporting tools - install when not installed
 #neofetch
-#screenfetch
-#alsi
-#paleofetch
-#fetch
-#hfetch
-#sfetch
-#ufetch
-#ufetch-arco
-#pfetch
-#sysinfo
-#sysinfo-retro
-#cpufetch
-#colorscript random
+. "$HOME/.cargo/env"
