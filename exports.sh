@@ -16,3 +16,4 @@ export SERVER_HOST='tyler'
 export SERVER_ADDRESS='tyler@tyler-ssk'
 export SERVER_PORT='1001'
 export BAT_THEME="OneHalfDark"
+export LIBGL_ALWAYS_SOFTWARE=1 alacritty

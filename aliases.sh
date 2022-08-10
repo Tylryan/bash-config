@@ -18,5 +18,5 @@ alias clera='clear'
 alias find-note='cd ~/Documents/notes ; v'
 alias push='~/bin/push-to-server'
 alias connect-server='ssh -p $(echo $SERVER_PORT) $(echo $SERVER_ADDRESS)'
-alias push-dir=''
+alias swap-caps='setxkbmap -option caps:swapescape'
 

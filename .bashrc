@@ -66,4 +66,3 @@ ex ()
 # Neat idea, but freaking annoying
 
 #neofetch
-. "$HOME/.cargo/env"
