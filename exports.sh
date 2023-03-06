@@ -4,16 +4,22 @@
 export HISTCONTROL=ignoreboth:erasedups
 export EDITOR='nvim'
 export VISUAL='nvim'
-export JAVA_AWT_WM_NOREPARENTING=1
+
+# PATHS
+export GOPATH=$HOME/golibs
 export PATH=$PATH:$HOME/.local/bin:$HOME/bin:
 export PATH=$PATH:$HOME/documents/nand-to-tetris/software-suite/tools/
 export PATH=$PATH:$HOME/.cargo/bin
+export PATH=$PATH:$HOME/flatpak_installs
 
 export TASKRC=~/.config/task/.taskrc
 export TASKDATA=~/.config/task/.task
 
-export SERVER_HOST='tyler'
-export SERVER_ADDRESS='tyler@tyler-ssk'
-export SERVER_PORT='1001'
 export BAT_THEME="OneHalfDark"
 export LIBGL_ALWAYS_SOFTWARE=1 alacritty
+#               Fixing Bugs
+# Anki
+export QTWEBENGINE_CHROMIUM_FLAGS="--no-sandbox"
+# Apps that don't like window managers
+# See also `wmname LG3D`
+export JAVA_AWT_WM_NOREPARENTING=1
