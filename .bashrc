@@ -2,6 +2,10 @@ source ~/.config/bash/aliases.sh
 source ~/.config/bash/exports.sh
 source ~/.config/bash/arco-aliases.sh
 
+
+# Enables completion for pretty much everything
+source /etc/profile.d/bash_completion.sh
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
